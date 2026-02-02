@@ -53,7 +53,7 @@ if uploaded_file:
         year_counts = publications["2024"].value_counts().sort_index()
         st.bar_chart(year_counts)
     else:
-        st.write("The CSV does not have a 'Year' column to visualize trends.")
+        st.write("2024")
 
 # Add STEM Data Section
 st.header("Explore STEM Data")
